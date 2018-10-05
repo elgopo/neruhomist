@@ -1,10 +1,4 @@
-body{
-   background: url(../images/main.jpg) no-repeat center center fixed;
-                                               background-size: cover;
-											   -moz-background-size: cover;
--webkit-background-size: cover;
--o-background-size: cover;
-                                       }
+
 
 .text-question {
     font-size: 40px;
@@ -25,4 +19,55 @@ h6{
 }
 .logoprozorro{
 	width:250px;
+}
+@media screen and (max-width: 576px){
+	.bg-fon{
+		background: url(../images/31.jpg); no-repeat center center fixed;
+                                               background-size: cover;		
+											   -moz-background-size:	cover;
+												-webkit-background-size:cover;
+												-o-background-size: 	cover;
+											
+        }
+}
+@media screen and (min-width: 576px){
+	.bg-fon{
+		background: url(../images/31.jpg) no-repeat center center fixed;
+                                               background-size: cover;		
+											   -moz-background-size:	  cover;
+												-webkit-background-size:  cover;
+												-o-background-size:       cover;
+}
+@media screen and (min-width: 768px){
+	.bg-fon{
+		background: url(../images/31.jpg) no-repeat center center fixed;
+                                               background-size: cover;		
+											   -moz-background-size:	  cover;
+												-webkit-background-size:  cover;
+												-o-background-size:       cover;
+        }
+}
+@media screen and (min-width: 992px){
+	body{
+		background: url(../images/nedv2.jpg) no-repeat center center fixed;
+                                               background-size: cover;		
+											   -moz-background-size:	  cover;
+												-webkit-background-size:  cover;
+												-o-background-size: cover;
+        }
+		.bg-fon{
+			background:none;
+		}
+}
+@media screen and (min-width: 1200px){
+	body{
+		background: url(../images/nedv2.jpg) no-repeat center center fixed;
+                                               background-size: cover;		
+											   -moz-background-size:	  cover;
+												-webkit-background-size:  cover;
+												-o-background-size:       cover;
+        }
+		.bg-fon{
+			background:none;
+		}
 }
