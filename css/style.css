@@ -17,7 +17,7 @@ h6 {
 }
 
 @media screen and (max-width: 576px) {
-    body {
+    .text-item {
         background: url(../images/nedv3.jpg) no-repeat top center;
         background-size: cover;
         -moz-background-size: cover;
@@ -29,34 +29,40 @@ h6 {
         padding: 0;
     }
     .text-item {
-        padding: 20px 50px;
+        padding: 100px 50px;
     }
     .logo-item {
         margin: 0;
+     
+        background: -webkit-linear-gradient(to right, #295EAF 25%, white 45%);
+        background: -moz-linear-gradient(to right, #295EAF 25%, white 45%);
+        background: -ms-linear-gradient(to right, #295EAF 25%, white 45%);
+        background: -o-linear-gradient(to right, #295EAF 25%, white 45%);
+        background: linear-gradient(to right, #295EAF 25%, white 45%);
+    
     }
 }
 
 @media screen and (min-width: 577px) {
-    body {
-        background: url(../images/nedv3.jpg) no-repeat top center;
-        background-size: cover;
-        -moz-background-size: cover;
-        -webkit-background-size: cover;
-        -o-background-size: cover;
-    }
+   
 
     .form-item {
         padding: 0;
     }
     .text-item {
-        padding: 20px 50px;
+        padding:100px 50px;
     }
     .logo-item {
-        margin:  0;
+        margin: 0;
+        background: -webkit-linear-gradient(to right, #295EAF 25%, white 45%);
+        background: -moz-linear-gradient(to right, #295EAF 25%, white 45%);
+        background: -ms-linear-gradient(to right, #295EAF 25%, white 45%);
+        background: -o-linear-gradient(to right, #295EAF 25%, white 45%);
+        background: linear-gradient(to right, #295EAF 25%, white 45%);
     }
 
-    .bg-fon {
-        background: url(../images/nedv3.jpg) no-repeat top center;
+    .text-item {
+        background: url(../images/nedv3.jpg) no-repeat center center;
         background-size: cover;
         -moz-background-size: cover;
         -webkit-background-size: cover;
@@ -73,14 +79,17 @@ h6 {
         -o-background-size: cover;
     }
 
+
     .form-item {
-        padding: 50px;
+        padding: 100px 50px;
     }
     .text-item {
         padding: 50px;
+        background:none;
     }
     .logo-item {
         margin: 50px 0;
+        background: none;
     }
 }
 
@@ -98,10 +107,13 @@ h6 {
     }
     .text-item {
         padding: 50px;
+        background: none;
     }
     .logo-item {
         margin: 50px 0;
+        background: none;
     }
+    
 }
 
 @media screen and (min-width: 1200px) {
@@ -117,9 +129,12 @@ h6 {
         padding: 50px;
     }
     .logo-item {
-        margin:50px 0;
+        margin: 50px 0;
+        background: none;
     }
     .text-item {
         padding: 50px;
+        background: none;
     }
+   
 }
