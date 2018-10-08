@@ -18,7 +18,7 @@ h6 {
 
 @media screen and (max-width: 576px) {
     .text-item {
-        background: url(../images/nedv3.jpg) no-repeat top center;
+        background: url(../images/nedv3.jpg) no-repeat top left;
         background-size: cover;
         -moz-background-size: cover;
         -webkit-background-size: cover;
@@ -62,7 +62,7 @@ h6 {
     }
 
     .text-item {
-        background: url(../images/nedv3.jpg) no-repeat center center;
+        background: url(../images/nedv3.jpg) no-repeat center left;
         background-size: cover;
         -moz-background-size: cover;
         -webkit-background-size: cover;
